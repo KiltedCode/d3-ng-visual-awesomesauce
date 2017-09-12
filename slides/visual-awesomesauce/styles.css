@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'MythBusters';
+    src: url(/assets/font/MythBusters.ttf);
+}
+
+.f-mb {
+    font-family: 'MythBusters' !important;
+}
+
+h1.section-title {
+    font-size: 2.11em;
+}
+
+.reveal ul {
+    list-style:none;
+}
+
+section img.no-style {
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+}
+
+section img.devfest-end {
+    width: 70%;
+}
+
+section img.angular-logo {
+    float: left;
+    height: 200px;
+    margin-right: 20px;
+}
+
+section img.typescript {
+    height: 1em;
+    padding-right: 15px;
+    position: relative;
+    top: -.1em;
+    vertical-align: middle;
+}
+
+section img.heart {
+    height: 1em;
+    padding: 0 4px;
+    position: relative;
+    top: -.1em;
+    vertical-align: middle;
+}
+
+li:before {
+    bottom: .1em;
+    content: '@';
+    font-family: 'MythBusters' !important;
+    font-size: .75em;
+    margin-right: 13px;
+    position: relative;
+}
+
+pre.small-code {
+    font-size: .4em;
+}
+
+div.bg-img, p.bg-img {
+    background: rgba(0, 0, 0, .5);
+}
+
+div.bg-img {
+    border-radius: 25px;
+    padding: 20px;
+}
+
+p.spaced {
+    margin: 30px 0;
+}
+
+table.small-table {
+    font-size: .65em;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
