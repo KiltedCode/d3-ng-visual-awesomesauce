@@ -1,14 +1,5 @@
-@font-face {
-    font-family: 'MythBusters';
-    src: url(/assets/font/MythBusters.ttf);
-}
-
-.f-mb {
-    font-family: 'MythBusters' !important;
-}
-
 h1.section-title {
-    font-size: 2.11em;
+    font-size: 3em;
 }
 
 .reveal ul {
@@ -25,13 +16,13 @@ section img.devfest-end {
     width: 70%;
 }
 
-section img.angular-logo {
+section img.angular {
     float: left;
     height: 200px;
     margin-right: 20px;
 }
 
-section img.typescript {
+section img.inline-header-logo {
     height: 1em;
     padding-right: 15px;
     position: relative;
@@ -49,8 +40,7 @@ section img.heart {
 
 li:before {
     bottom: .1em;
-    content: '@';
-    font-family: 'MythBusters' !important;
+    content: '✪';
     font-size: .75em;
     margin-right: 13px;
     position: relative;
