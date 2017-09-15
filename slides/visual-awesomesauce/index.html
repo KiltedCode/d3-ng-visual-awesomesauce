@@ -61,19 +61,23 @@
                 </section>
 
                 <section id="abstract">
-                    <h2>Why We're Here</h2>
-                    <p class="text-left">
-                        Description or remove.
-                    </p>
+                    <h1>The World is Data</h1>
+                    <aside class="notes">
+                            The world is data. We gather it everywhere: forms, feedback, learning techniques, data mining. 
+                            When it comes to working with that data, we need to do more than show numbers back to our users. 
+                            With the combination of D3 and Angular, we can take that data and create versatile and interactive visualizations that respond to dynamic data. 
+                            In this talk, we’ll look at how to create visualizations of data with D3 combined with Angular Components. 
+                            This combination is where you squeeze that last 10% out of your data and take your data based application to the next step for your users.
+                    </aside>
                 </section>
 
                 <section id="outline">
                     <h2>What We'll Do</h2>
                     <ul>
-                        <li>What is d3?</li>
+                        <li>What is D3?</li>
                         <li>General Update Pattern</li>
                         <li>What is Angular?</li>
-                        <li>With our powers combined</li>
+                        <li>Combine D3 + Angular</li>
                     </ul>
                 </section>
 
@@ -85,23 +89,111 @@
                     <section id="what-is-d3">
                         <h2><img src="/assets/img/d3.png" class="no-style inline-header-logo" alt="D3" title="D3" /> What is D3?</h2>
                         <p>
-                            D3 (or D3.js) is a JavaScript library for visualizing data using web standards. D3 helps you bring data to life using SVG, Canvas and HTML. 
-                            D3 combines powerful visualization and interaction techniques with a data-driven approach to DOM manipulation, giving you the full capabilities of modern browsers and the freedom to design the right visual interface for your data.
+                            Open source JavaScript library that provides powerful manipulation of the Document Object Model (DOM) driven by data.
                         </p>
                         <p class="text-right">
                             <a href="https://github.com/d3/d3"><small>https://github.com/d3/d3</small></a>
                         </p>
                         <aside class="notes">
-                            
+                            D3 (or D3.js) is a JavaScript library for visualizing data using web standards. D3 helps you bring data to life using SVG, Canvas and HTML. 
+                            D3 combines powerful visualization and interaction techniques with a data-driven approach to DOM manipulation, giving you the full capabilities of modern browsers and the freedom to design the right visual interface for your data.
                         </aside>
                     </section>
 
                     <section id="d3-gons">
-                        <h2>Creating your gons</h2>
+                        <h2>Creating Shapes</h2>
                         <p>
                             Easy to create whatever shapes you want.
                         </p>
                     </section>
+
+                    <section id="d3-gons-pentagon">
+                        <h2>Creating Shapes: Pentagon</h2>
+<pre><code>
+var pentagon = 
+    d3.svg.line()
+        .x(function(d) { return d.x; })
+        .y(function(d) { return d.y; })
+        .interpolate('cardinal-closed')
+        .tension('1');
+        
+var pentData = [
+        {'x': 295, 'y': 169},
+        {'x': 200, 'y': 100},
+        {'x': 105, 'y': 169},
+        {'x': 141, 'y': 281},
+        {'x': 259, 'y': 281}
+    ];
+
+var svg = 
+    d3.select('body')
+        .append('svg')
+        .attr('width', 500)
+        .attr('height', 500);
+
+
+var path = 
+    svg.append('path')
+        .attr('d', pentagon(pentData))
+        .attr('stroke', 'red')
+        .attr('stroke-width', 3)
+        .attr('fill', 'rgba(255, 0, 0, 0.3)');
+</code></pre>
+                    </section>
+                    
+                    <section id="d3-gons-hexagon">
+                        <h2>Creating Shapes: Hexagon</h2>
+<pre><code>
+var polygon = 
+    d3.svg.line()
+        .x(function(d) { return d.x; })
+        .y(function(d) { return d.y; })
+        .interpolate('cardinal-closed')
+        .tension('1');
+
+var hexData = [
+        {'x': 300, 'y': 200},
+        {'x': 250, 'y': 113},
+        {'x': 150, 'y': 113},
+        {'x': 100, 'y': 200},
+        {'x': 150, 'y': 287},
+        {'x': 250, 'y': 287}
+    ];
+
+var svg = 
+    d3.select('body')
+        .append('svg')
+        .attr('width', 500)
+        .attr('height', 500);
+
+
+var path = 
+    svg.append('path')
+        .attr('d', polygon(hexData))
+        .attr('stroke', 'blue')
+        .attr('stroke-width', 3)
+        .attr('fill', 'rgba(0, 0, 255, 0.3)');
+</code></pre>
+                    </section>
+                    
+                    <section id="d3-gons-pentagon">
+                        <h2>Creating Shapes: Omnonomagon</h2>
+<pre><code>
+    
+</code></pre>
+                    </section>
+                    
+                    <section id="d3-gons-output">
+                        <h2>Creating All the 'Gons'</h2>
+                        <p>
+                            Image goes here of output side by side
+                        </p>
+                        <p class="text-right">
+                            <a href="https://github.com/RHGeek/d3-ng-visual-awesomesauce/"><small>https://github.com/RHGeek/d3-ng-visual-awesomesauce/examples/all-the-gons</small></a>
+                        </p>
+                    </section>
+
+
 
                     <section id="d3-ex">
                         <h2>Example</h2>
