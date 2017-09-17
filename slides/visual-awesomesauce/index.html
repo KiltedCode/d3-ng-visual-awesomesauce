@@ -114,8 +114,7 @@ var pentagon =
     d3.svg.line()
         .x(function(d) { return d.x; })
         .y(function(d) { return d.y; })
-        .interpolate('cardinal-closed')
-        .tension('1');
+        .curve(d3.curveLinearClosed);;
         
 var pentData = [
         {'x': 295, 'y': 169},
@@ -148,8 +147,7 @@ var polygon =
     d3.svg.line()
         .x(function(d) { return d.x; })
         .y(function(d) { return d.y; })
-        .interpolate('cardinal-closed')
-        .tension('1');
+        .curve(d3.curveLinearClosed);;
 
 var hexData = [
         {'x': 300, 'y': 200},
@@ -179,17 +177,32 @@ var path =
                     <section id="d3-gons-pentagon">
                         <h2>Creating Shapes: Omnonomagon</h2>
 <pre><code>
+var pacman = d3.arc()
+    .innerRadius(0)
+    .outerRadius(95)
+    .startAngle(2 * Math.PI + Math.PI / 4)
+    .endAngle(Math.PI - Math.PI / 4); 
     
+var svg = 
+    d3.select('body')
+        .append('svg')
+        .attr('width', 500)
+        .attr('height', 500);
+
+svg.append('path')
+    .attr('d', pacman())
+    .attr('stroke', 'rgb(253,255,0)')
+    .attr('stroke-width', 3)
+    .attr('fill', 'rgba(253,255,0, 0.4)')
+    .attr('transform', 'translate(200, 200)');
 </code></pre>
                     </section>
                     
                     <section id="d3-gons-output">
                         <h2>Creating All the 'Gons'</h2>
-                        <p>
-                            Image goes here of output side by side
-                        </p>
+                        <img src="/assets/img/the-gons.png" alt="Gons Output" />
                         <p class="text-right">
-                            <a href="https://github.com/RHGeek/d3-ng-visual-awesomesauce/"><small>https://github.com/RHGeek/d3-ng-visual-awesomesauce/examples/all-the-gons</small></a>
+                            <a href="https://github.com/RHGeek/d3-ng-visual-awesomesauce/tree/master/examples/all-the-gons"><small>d3-ng-visual-awesomesauce / examples / all-the-gons</small></a>
                         </p>
                     </section>
 
@@ -226,7 +239,7 @@ var svg = d3.select('body')
                         </p>
 <pre>
 <code>
-var arc = d3.svg.arc()
+var arc = d3.arc()
     .startAngle(function(d) {
         return Math.max(0, Math.min(2 * Math.PI, xScale(d.x)));
     })
