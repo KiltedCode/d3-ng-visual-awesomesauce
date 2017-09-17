@@ -74,3 +74,10 @@ table.small-table {
 .text-right {
     text-align: right;
 }
+
+.center-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+}
