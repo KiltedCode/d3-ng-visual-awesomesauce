@@ -75,6 +75,10 @@ table.small-table {
     text-align: right;
 }
 
+code.indent {
+    margin-left: 1.5em;
+}
+
 .center-img {
     position: absolute;
     top: 50%;
