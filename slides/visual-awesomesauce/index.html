@@ -175,9 +175,9 @@ var path =
                     </section>
                     
                     <section id="d3-gons-pentagon">
-                        <h2>Creating Shapes: Omnonomagon</h2>
+                        <h2>Creating Shapes: Arc</h2>
 <pre><code>
-var pacman = d3.arc()
+var arcGen = d3.arc()
     .innerRadius(0)
     .outerRadius(95)
     .startAngle(2 * Math.PI + Math.PI / 4)
@@ -190,7 +190,7 @@ var svg =
         .attr('height', 500);
 
 svg.append('path')
-    .attr('d', pacman())
+    .attr('d', arcGen())
     .attr('stroke', 'rgb(253,255,0)')
     .attr('stroke-width', 3)
     .attr('fill', 'rgba(253,255,0, 0.4)')
