@@ -1,4 +1,4 @@
-import { Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
+import { Component, ElementRef, EventEmitter, Input, OnInit, Output, ViewChild } from '@angular/core';
 
 import * as d3 from 'd3';
 
@@ -34,6 +34,9 @@ export class ParkSunburstComponent implements OnInit {
     }
   }
 
+  @Output()
+  onArc: EventEmitter<any> = new EventEmitter<any>();
+
   @ViewChild('chart') 
   private chartContainer: ElementRef;
 
@@ -56,6 +59,19 @@ export class ParkSunburstComponent implements OnInit {
   private yScale: any;
 
   constructor() { }
+
+  private clickArc(d: any): void {
+    let clickedFilter = {};
+    if(d.data.level == 'parkName') {
+      clickedFilter['parkName'] = d.data.name;
+    } else if(d.data.level == 'type') {
+      clickedFilter['type'] = d.data.name;
+      clickedFilter['parkName'] = d.parent.data.name;
+    }
+    if(clickedFilter['parkName']) {
+      this.onArc.emit(clickedFilter);
+    }
+  }
 
   private createChart(): void {
     let element = this.chartContainer.nativeElement;
@@ -269,8 +285,6 @@ export class ParkSunburstComponent implements OnInit {
   }
 
   private updateChart(tree: any): void {
-    // this.svg.selectAll('path').remove();
-
     this.root = d3.hierarchy(tree);
     this.root.sum(function(d) { return d.size; });
 
@@ -285,6 +299,7 @@ export class ParkSunburstComponent implements OnInit {
       .on('mouseover', (d) => this.mouseoverArc(d))
       .on('mousemove', (d) => this.mousemoveArc())
       .on('mouseout',  (d) => this.mouseoutArc())
+      .on('click',     (d) => this. clickArc(d))
       .merge(path)      // ENTER + UPDATE
         .transition().duration(500)
         .attr('d', this.arc)

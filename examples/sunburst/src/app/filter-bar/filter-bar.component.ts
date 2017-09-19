@@ -1,4 +1,4 @@
-import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'rhsun-filter-bar',
@@ -6,6 +6,22 @@ import { Component, EventEmitter, OnInit, Output } from '@angular/core';
   styleUrls: ['./filter-bar.component.scss']
 })
 export class FilterBarComponent implements OnInit {
+
+  @Input()
+  set arcFilter(afilt: any) {
+    for(let filterName in afilt) {
+      let filterValue = afilt[filterName];
+      if(this.filters[filterName]) {
+        let i = this.filters[filterName].indexOf(filterValue);
+        if(i === -1) {
+          this.filters[filterName].push(filterValue);
+        }
+      } else {
+        this.filters[filterName] = [filterValue];
+      }
+    }
+    this.onFilter.emit(this.filters);
+  }
 
   @Output()
   onFilter: EventEmitter<any> = new EventEmitter<any>();
@@ -28,7 +44,6 @@ export class FilterBarComponent implements OnInit {
     } else {
       this.filters[filterName] = [filterValue];
     }
-    console.log('filters', this.filters);
 
     this.onFilter.emit(this.filters);
   }

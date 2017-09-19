@@ -1,6 +1,8 @@
 <rhsun-park-sunburst
     [attractions]="attractions"
-    [filters]="filters"></rhsun-park-sunburst>
+    [filters]="filters"
+    (onArc)="onFilterArc($event)"></rhsun-park-sunburst>
 
 <rhsun-filter-bar
+    [arcFilter]="arcFilter"
     (onFilter)="onFilterBar($event)"></rhsun-filter-bar>

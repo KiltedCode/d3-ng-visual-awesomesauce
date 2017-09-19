@@ -10,6 +10,7 @@ import { ParkAttraction, ParksService } from './shared/'
 export class AppComponent implements OnInit {
 
   attractions: ParkAttraction[];
+  arcFilter: any;
   filters: any;
 
   constructor(
@@ -24,6 +25,10 @@ export class AppComponent implements OnInit {
         }
       );
     this.filters = {};
+  }
+
+  onFilterArc(arcFilter: any): void {
+    this.arcFilter = Object.assign({}, arcFilter);
   }
 
   onFilterBar(filterList: any): void {
