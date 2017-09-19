@@ -269,7 +269,7 @@ export class ParkSunburstComponent implements OnInit {
   }
 
   private updateChart(tree: any): void {
-    this.svg.selectAll('path').remove();
+    // this.svg.selectAll('path').remove();
 
     this.root = d3.hierarchy(tree);
     this.root.sum(function(d) { return d.size; });
@@ -277,12 +277,6 @@ export class ParkSunburstComponent implements OnInit {
     /* JOIN new data with old elements */
     var path = this.svg.selectAll('path')
         .data(this.partition(this.root).descendants());
-
-    /* EXIT old elements not present in new data */
-    path.exit()
-      .transition()
-      .duration(500)
-      .remove();
 
     /* ENTER new elements present in new data */
     /* UPDATE old elements present in new data */
@@ -296,6 +290,12 @@ export class ParkSunburstComponent implements OnInit {
         .attr('d', this.arc)
         .style('stroke', '#ffffff')
         .style('fill', (d: any) => { return this.color((d.children ? d : d.parent).data.name); });
+        
+    /* EXIT old elements not present in new data */
+    path.exit()
+      .transition()
+      .duration(500)
+      .remove();
 
   }
 
