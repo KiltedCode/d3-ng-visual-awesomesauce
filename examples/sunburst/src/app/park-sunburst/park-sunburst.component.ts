@@ -76,7 +76,9 @@ export class ParkSunburstComponent implements OnInit {
       .attr('id', 'tooltip')
       .style('position', 'absolute')
       .style('z-index', '10')
-      .style('opacity', 0);
+      .style('opacity', 0)
+      .style('background-color', 'rgba(255, 255, 255, 0.6)')
+      .style('padding', '5px 10px');
 
     /* set up scales */
     this.xScale = d3.scaleLinear()
@@ -234,16 +236,16 @@ export class ParkSunburstComponent implements OnInit {
     };
     switch(d.data.level) {
       case 'attraction':
-        html = d.data.name;
+        html = `<strong>${d.data.name}</strong>`;
         break;
       case 'type':
-        html = `${d.parent.data.name}: ${d.value} ${d.data.name}`;
+        html = `<strong>${d.parent.data.name}:</strong> ${d.value} ${d.data.name}`;
         if(d.value > 1) {
           html += 's';
         }
         break;
       case 'parkName':
-        html = `${d.data.name}:<br />`;
+        html = `<strong>${d.data.name}:</strong><br />`;
         for(let type of d.children) {
           counts[type.data.name] = type.value;
         }
@@ -254,11 +256,11 @@ export class ParkSunburstComponent implements OnInit {
                   ${counts.shop} shop`
         break;
       case 'resortName':
-        html = `${d.data.name}:<br />
+        html = `<strong>${d.data.name}:</strong><br />
                 ${d.children.length} parks`;
         break;
       default:
-        html = d.data.name;
+        html = `<strong>${d.data.name}</strong>`;
         break;
     }
     d.data.name;
