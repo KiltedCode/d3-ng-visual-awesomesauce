@@ -2,19 +2,20 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { SunburstComponent } from './sunburst/sunburst.component';
+import { ParkSunburstComponent } from './park-sunburst/park-sunburst.component';
 import { FilterBarComponent } from './filter-bar/filter-bar.component';
+import { ParksService } from './shared/parks.service';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SunburstComponent,
+    ParkSunburstComponent,
     FilterBarComponent
   ],
   imports: [
     BrowserModule
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [ ParksService ],
+  bootstrap: [ AppComponent ]
 })
 export class AppModule { }

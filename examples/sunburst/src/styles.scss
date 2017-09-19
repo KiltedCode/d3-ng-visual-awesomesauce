@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'Zilla Slab', 'Trebuchet MS', Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    background: black;
+    color: white;
+    font-family: 'Zilla Slab', 'Times New Roman', Times, serif;
+    padding: 5px 10px;
+}

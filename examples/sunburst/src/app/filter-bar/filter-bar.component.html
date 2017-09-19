@@ -1,3 +1,15 @@
-<p>
-  filter-bar works!
-</p>
+<div class="filter-bar">
+  <h2>
+    Parks:
+  </h2>
+  <a *ngFor="let park of parks" (click)="filter('parkName', park)" class="filterItem" tabindex="0">
+    {{park}}
+  </a>
+
+  <h2>
+    Types:
+  </h2>
+  <a *ngFor="let type of types" (click)="filter('type', type)" class="filterItem" tabindex="0">
+    {{type}}
+  </a>
+</div>

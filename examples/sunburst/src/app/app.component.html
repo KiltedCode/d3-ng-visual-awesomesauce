@@ -1,1 +1,6 @@
-<rhsun-sunburst></rhsun-sunburst>
+<rhsun-park-sunburst
+    [attractions]="attractions"
+    [filters]="filters"></rhsun-park-sunburst>
+
+<rhsun-filter-bar
+    (onFilter)="onFilterBar($event)"></rhsun-filter-bar>

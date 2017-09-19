@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'rhsun-filter-bar',
@@ -7,9 +7,50 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FilterBarComponent implements OnInit {
 
+  @Output()
+  onFilter: EventEmitter<any> = new EventEmitter<any>();
+
+  parks: string[];
+  types: string[];
+
+  private filters: any;
+
   constructor() { }
 
+  filter(filterName: string, filterValue: string) {
+    if(this.filters[filterName]) {
+      let i = this.filters[filterName].indexOf(filterValue);
+      if(i === -1) {
+        this.filters[filterName].push(filterValue);
+      } else {
+        this.filters[filterName].splice(i, 1);
+      }
+    } else {
+      this.filters[filterName] = [filterValue];
+    }
+    console.log('filters', this.filters);
+
+    this.onFilter.emit(this.filters);
+  }
+
   ngOnInit() {
+    this.filters = {};
+
+    this.parks = [
+      'Epcot', 
+      'Magic Kingdom', 
+      'Disney\'s Hollywood Studios', 
+      'Disney\'s Animal Kingdom'
+    ];
+
+    this.types = [
+      'ride',
+      'food',
+      'character',
+      'show',
+      'shop'
+    ];
+
   }
 
 }
