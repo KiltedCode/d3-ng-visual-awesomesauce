@@ -1595,6 +1595,16 @@ export class ParksService {
       favorite: false,
       note: ''
     },
+    {
+      name: 'IllumiNations: Reflections of Earth',
+      areaName: 'World Showcase',
+      type: 'show',
+      height: 0,
+      parkName: 'Epcot',
+      resortName: 'Walt Disney World',
+      favorite: false,
+      note: ''
+    },
 
     {
       name: 'The Great Movie Ride',
