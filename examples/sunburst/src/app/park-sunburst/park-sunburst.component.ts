@@ -13,12 +13,10 @@ export class ParkSunburstComponent implements OnInit {
 
   @Input()
   set attractions(attrs: ParkAttraction[]) {
-    console.log('attrs', attrs);
     if (attrs) {
       this._attractions = attrs;
       this.attractionTree = this.dataToTree(attrs);
       if(this.created) {
-        console.log('created');
         this.updateChart(this.attractionTree);
       }
     }
@@ -31,7 +29,6 @@ export class ParkSunburstComponent implements OnInit {
       let attrs = this.filterAttractions(this._attractions, this._filters);
       this.attractionTree = this.dataToTree(attrs);
       if(this.created) {
-        console.log('created too');
         this.updateChart(this.attractionTree);
       }
     }
@@ -61,7 +58,6 @@ export class ParkSunburstComponent implements OnInit {
   constructor() { }
 
   private createChart(): void {
-    console.log('create');
     let element = this.chartContainer.nativeElement;
     this.width = element.offsetWidth - this.margin * 2;
     this.height = element.offsetHeight - this.margin * 2;
@@ -157,7 +153,6 @@ export class ParkSunburstComponent implements OnInit {
         }
         dataTree.children.push(resort);
       }
-      console.log('dataTree', dataTree);
     }
 
     return dataTree;
@@ -249,7 +244,6 @@ export class ParkSunburstComponent implements OnInit {
         break;
       case 'parkName':
         html = `${d.data.name}:<br />`;
-        // console.log('d', d);
         for(let type of d.children) {
           counts[type.data.name] = type.value;
         }
@@ -273,8 +267,6 @@ export class ParkSunburstComponent implements OnInit {
   }
 
   private updateChart(tree: any): void {
-    console.log('tree', tree);
-    
     this.svg.selectAll('path').remove();
 
     this.root = d3.hierarchy(tree);
@@ -300,6 +292,7 @@ export class ParkSunburstComponent implements OnInit {
       .merge(path)      // ENTER + UPDATE
         .transition().duration(500)
         .attr('d', this.arc)
+        .style('stroke', '#ffffff')
         .style('fill', (d: any) => { return this.color((d.children ? d : d.parent).data.name); });
 
   }
