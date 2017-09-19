@@ -13,7 +13,7 @@ export class FilterBarComponent implements OnInit {
   parks: string[];
   types: string[];
 
-  private filters: any;
+  filters: any;
 
   constructor() { }
 

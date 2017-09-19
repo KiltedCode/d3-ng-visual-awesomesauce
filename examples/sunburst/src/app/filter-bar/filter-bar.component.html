@@ -2,14 +2,20 @@
   <h2>
     Parks:
   </h2>
-  <a *ngFor="let park of parks" (click)="filter('parkName', park)" class="filterItem" tabindex="0">
+  <a *ngFor="let park of parks" 
+    (click)="filter('parkName', park)" 
+    [ngClass]="{'selected': filters['parkName'] && filters['parkName'].indexOf(park) > -1}"
+    class="filterItem" tabindex="0">
     {{park}}
   </a>
 
   <h2>
     Types:
   </h2>
-  <a *ngFor="let type of types" (click)="filter('type', type)" class="filterItem" tabindex="0">
+  <a *ngFor="let type of types" 
+    (click)="filter('type', type)"  
+    [ngClass]="{'selected': filters['type'] && filters['type'].indexOf(type) > -1}"
+    class="filterItem" tabindex="0">
     {{type}}
   </a>
 </div>

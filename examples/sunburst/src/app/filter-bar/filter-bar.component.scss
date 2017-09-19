@@ -10,6 +10,11 @@
     display: block;
     padding: 10px;
     text-transform: capitalize;
+
+    &.selected {
+        background-color: #fe8100;
+        color: white;
+    }
 }
 
 h2 {
