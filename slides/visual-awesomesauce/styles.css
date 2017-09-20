@@ -12,7 +12,7 @@ section img.no-style {
     box-shadow: none;
 }
 
-section img.devfest-end {
+section img.conf-logo-end {
     width: 70%;
 }
 
@@ -84,4 +84,8 @@ code.indent {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -40%);
+}
+
+img.sunburst-output {
+    width: 60%;
 }

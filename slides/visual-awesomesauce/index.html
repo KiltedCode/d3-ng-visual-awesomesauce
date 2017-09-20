@@ -228,10 +228,10 @@ var width = 500,
     height = 500;
 var svg = d3.select('body')
     .append('svg')
-    .attr('width', width)
-    .attr('height', height)
+        .attr('width', width)
+        .attr('height', height)
     .append('g')
-    .attr('transform', 'translate(' + width / 2 + ',' + height / 2 + ') rotate(-90 0 0)');    
+        .attr('transform', 'translate(' + width / 2 + ',' + height / 2 + ') rotate(-90 0 0)');    
 </code></pre>
                     </section>
 
@@ -242,19 +242,16 @@ var svg = d3.select('body')
                         </p>
 <pre>
 <code>
+var xScale = d3.scaleLinear()
+    .range([0, 2 * Math.PI]);
+var yScale = d3.scaleSqrt()
+    .range([0, radius]);
+
 var arc = d3.arc()
-    .startAngle(function(d) {
-        return Math.max(0, Math.min(2 * Math.PI, xScale(d.x)));
-    })
-    .endAngle(function(d) {
-        return Math.max(0, Math.min(2 * Math.PI, xScale(d.x + d.dx)));
-    })
-    .innerRadius(function(d) {
-        return Math.max(0, yScale(d.y));
-    })
-    .outerRadius(function(d) {
-        return Math.max(0, yScale(d.y + d.dy));
-    });
+    .startAngle(function(d) { return Math.max(0, Math.min(2 * Math.PI, xScale(d['x0']))); })
+    .endAngle(function(d) { return Math.max(0, Math.min(2 * Math.PI, xScale(d['x1']))); })
+    .innerRadius(function(d) { return Math.max(0, yScale(d['y0'])); })
+    .outerRadius(function(d) { return Math.max(0, yScale(d['y1'])); });
 </code>
 </pre>
                     </section>
@@ -286,7 +283,33 @@ var arc = d3.arc()
                     <section id="gup-code">
                             <h2>General Update Pattern</h2>
 <pre><code>
-    d3.data()
+root = d3.hierarchy(tree);
+root.sum(function(d) { return d.size; });
+
+/* JOIN new data with old elements */
+var path = svg.selectAll('path')
+    .data(partition(root).descendants());
+
+/* ENTER new elements present in new data */
+/* UPDATE old elements present in new data */
+path.enter()
+    .append('path')
+        .on('mouseover', mouseoverArc)
+        .on('mousemove', mousemoveArc)
+        .on('mouseout',  mouseoutArc)
+        .on('click',     clickArc)
+    .merge(path)      // ENTER + UPDATE
+        .transition().duration(500)
+        .attr('d', arc)
+        .style('stroke', '#ffffff')
+        .style('fill', function(d) { return color((d.children ? d : d.parent).data.name); })
+        .style('cursor', function(d) { return d.data.level == 'parkName' || d.data.level == 'type' ? 'pointer' : 'auto' });
+    
+/* EXIT old elements not present in new data */
+path.exit()
+    .transition()
+    .duration(500)
+    .remove();
 </code></pre>
                         </section>
 
@@ -340,8 +363,9 @@ var arc = d3.arc()
                     <section id="powers-combined">
                         <h2><img src="/assets/img/cp.png" class="no-style inline-header-logo" alt="CP" title="Captain Planet" /> With our powers combined...</h2>
                         <p>
-                            Together we can create awesome!
+                            Together we can create visual awesomesauce!
                         </p>
+                        <img src="/assets/img/sunburst.png" alt="Sunburst" class="sunburst-output" />
                     </section>
                     
                     <section id="powers-getting-d3">
@@ -366,26 +390,168 @@ var arc = d3.arc()
                         </ul>
                     </section>
 
+                    <section id="powers-restructure-ngoninit">
+                        <h2>Restructure: ngOnInit</h2>
+<pre><code>
+ngOnInit() {
+    this.created = false;
+    this.attractionTree = {
+        name : 'Theme Parks',
+        children : []
+    };
+    this.margin = 10;
+    this.createChart();
+    this.updateChart(this.attractionTree);
+}
+</code></pre>
+                    </section>
+
+                    <section id="powers-restructure-chart">
+                        <h2>Restructure: Create Chart</h2>
+<pre><code>
+@ViewChild('chart') 
+private chartContainer: ElementRef;
+
+private createChart(): void {
+    let element = this.chartContainer.nativeElement;
+    this.width = element.offsetWidth - this.margin * 2;
+    this.height = element.offsetHeight - this.margin * 2;
+    this.radius = (Math.min(this.width, this.height) / 2) - this.margin * 2
+    
+    /* create svg */
+    this.svg = d3.select(element).append('svg')
+        .attr('width', element.offsetWidth)
+        .attr('height', element.offsetHeight)
+        .append('g')
+        .attr('transform', 'translate(' + this.width / 2 + ',' + this.height / 2 + ') rotate(-90 0 0)');
+    
+    /* create tooltip div */
+    this.tooltip = d3.select(element)
+        .append('div')
+        .attr('id', 'tooltip')
+        .style('position', 'absolute')
+        .style('z-index', '10')
+        .style('opacity', 0)
+        .style('background-color', 'rgba(255, 255, 255, 0.6)')
+        .style('padding', '5px 10px');
+
+    /* set up scales */
+    this.xScale = d3.scaleLinear()
+        .range([0, 2 * Math.PI]);
+    this.yScale = d3.scaleSqrt()
+        .range([0, this.radius]);
+    this.color = d3.scaleOrdinal(d3.schemeCategory20c);
+
+    /* layout */
+    this.partition = d3.partition();
+
+    /* arc function for calculating slices of sunburst */
+    this.arc = d3.arc()
+        .startAngle((d: any) => { return Math.max(0, Math.min(2 * Math.PI, this.xScale(d['x0']))); })
+        .endAngle((d: any) => { return Math.max(0, Math.min(2 * Math.PI, this.xScale(d['x1']))); })
+        .innerRadius((d: any) => { return Math.max(0, this.yScale(d['y0'])); })
+        .outerRadius((d: any) => { return Math.max(0, this.yScale(d['y1'])); });
+
+    this.created = true;
+}
+</code></pre>
+                    </section>
+
+                    <section id="powers-restructure-chart">
+                        <h2>Restructure: Update Chart</h2>
+<pre><code>
+private updateChart(tree: any): void {
+    this.root = d3.hierarchy(tree);
+    this.root.sum(function(d) { return d.size; });
+
+    /* JOIN new data with old elements */
+    let path = this.svg.selectAll('path')
+        .data(this.partition(this.root).descendants());
+
+    /* ENTER new elements present in new data */
+    /* UPDATE old elements present in new data */
+    path.enter()
+        .append('path')
+        .on('mouseover', (d) => this.mouseoverArc(d))
+        .on('mousemove', (d) => this.mousemoveArc())
+        .on('mouseout',  (d) => this.mouseoutArc())
+        .on('click',     (d) => this.clickArc(d))
+        .merge(path)      // ENTER + UPDATE
+        .transition().duration(500)
+        .attr('d', this.arc)
+        .style('stroke', '#ffffff')
+        .style('fill', (d: any) => { return this.color((d.children ? d : d.parent).data.name); })
+        .style('cursor', (d: any) => { return d.data.level == 'parkName' || d.data.level == 'type' ? 'pointer' : 'auto' });
+        
+    /* EXIT old elements not present in new data */
+    path.exit()
+        .transition()
+        .duration(500)
+        .remove();
+}
+</code></pre>
+                    </section>
+
+                    <section id="powers-input-output">
+                        <h2>Communicate Between Components</h2>
+
+                        <ul>
+                            <li>Receive data in through @Input</li>
+                            <li>Pass data back out with @Output emitter</li>
+                        </ul>
+                    </section>
+
                     <section id="powers-input">
                         <h2>@Input</h2>
-                        <p>
-                            Leverage input
-                        </p>
+<pre><code>
+@Input()
+set attractions(attrs: ParkAttraction[]) {
+    if (attrs) {
+        this._attractions = attrs;
+        this.attractionTree = this.dataToTree(attrs);
+        if(this.created) {
+            this.updateChart(this.attractionTree);
+        }
+    }
+}  
+</code></pre>
+                        <aside class="notes">
+                            Can also use ngOnChanges, which allows you to see old and current value.
+                        </aside>
                     </section>
 
                     <section id="powers-output">
-                        <h2>@Ouput</h2>
-                        <p>
-                            Leverage output and event emitters
-                        </p>
-                    </section>
-
-                    <section id="powers-code">
-                        <h2>Sunburst</h2>
+                        <h2>@Output</h2>
 <pre><code>
-    @Input
+@Output()
+onArc: EventEmitter<any> = new EventEmitter<any>();
 
-    @Output
+private clickArc(d: any): void {
+    let clickedFilter = {};
+    if(d.data.level == 'parkName') {
+        clickedFilter['parkName'] = d.data.name;
+    } else if(d.data.level == 'type') {
+        clickedFilter['type'] = d.data.name;
+        clickedFilter['parkName'] = d.parent.data.name;
+    }
+    if(clickedFilter['parkName']) {
+        this.onArc.emit(clickedFilter);
+    }
+}
+</code></pre>
+                    </section>
+                    
+                    <section id="powers-html">
+                        <h2>HTML Template</h2>
+<pre><code>
+<rhsun-park-sunburst
+    [attractions]="attractions"
+    [filters]="filters"
+    (onArc)="onFilterArc($event)"></rhsun-park-sunburst>
+
+<rhsun-filter-bar
+    [arcFilter]="arcFilter"
+    (onFilter)="onFilterBar($event)"></rhsun-filter-bar>
 </code></pre>
                     </section>
 
@@ -405,6 +571,7 @@ var arc = d3.arc()
                 </section>  
 
                 <section id="wrap-up">
+                        <img src="/assets/img/connect-tech.png" class="no-style conf-logo-end" title="Connect.Tech" />
                     <p>
                         Find me: <span title="twitter and github">@rhgeek</span>
                     </p>
