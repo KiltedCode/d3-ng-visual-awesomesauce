@@ -289,7 +289,7 @@ export class ParkSunburstComponent implements OnInit {
     this.root.sum(function(d) { return d.size; });
 
     /* JOIN new data with old elements */
-    var path = this.svg.selectAll('path')
+    let path = this.svg.selectAll('path')
         .data(this.partition(this.root).descendants());
 
     /* ENTER new elements present in new data */
@@ -299,7 +299,7 @@ export class ParkSunburstComponent implements OnInit {
       .on('mouseover', (d) => this.mouseoverArc(d))
       .on('mousemove', (d) => this.mousemoveArc())
       .on('mouseout',  (d) => this.mouseoutArc())
-      .on('click',     (d) => this. clickArc(d))
+      .on('click',     (d) => this.clickArc(d))
       .merge(path)      // ENTER + UPDATE
         .transition().duration(500)
         .attr('d', this.arc)
@@ -312,7 +312,6 @@ export class ParkSunburstComponent implements OnInit {
       .transition()
       .duration(500)
       .remove();
-
   }
 
 }
