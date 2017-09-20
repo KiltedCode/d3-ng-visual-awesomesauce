@@ -304,7 +304,8 @@ export class ParkSunburstComponent implements OnInit {
         .transition().duration(500)
         .attr('d', this.arc)
         .style('stroke', '#ffffff')
-        .style('fill', (d: any) => { return this.color((d.children ? d : d.parent).data.name); });
+        .style('fill', (d: any) => { return this.color((d.children ? d : d.parent).data.name); })
+        .style('cursor', (d: any) => { return d.data.level == 'parkName' || d.data.level == 'type' ? 'pointer' : 'auto' });
         
     /* EXIT old elements not present in new data */
     path.exit()
