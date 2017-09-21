@@ -45,6 +45,7 @@
                     <pre class="small-code"><code>function getDeveloperInfo() {
     let dev = {
         name: 'John Niedzwiecki',
+        desc: 'Your friendly neighborhood kilted coder.',
         company: 'VIPRE Security',
         role: 'Lead Software Engineer - UI',
         twitter: '@rhgeek',
@@ -115,7 +116,7 @@
                         <h2>Creating Shapes: Pentagon</h2>
 <pre><code>
 var pentagon = 
-    d3.svg.line()
+    d3.line()
         .x(function(d) { return d.x; })
         .y(function(d) { return d.y; })
         .curve(d3.curveLinearClosed);;
@@ -149,7 +150,7 @@ var path =
                         <h2>Creating Shapes: Hexagon</h2>
 <pre><code>
 var polygon = 
-    d3.svg.line()
+    d3.line()
         .x(function(d) { return d.x; })
         .y(function(d) { return d.y; })
         .curve(d3.curveLinearClosed);;
@@ -235,7 +236,7 @@ var svg = d3.select('body')
         .attr('width', width)
         .attr('height', height)
     .append('g')
-        .attr('transform', 'translate(' + width / 2 + ',' + height / 2 + ') rotate(-90 0 0)');    
+        .attr('transform', 'translate(' + width / 2 + ',' + height / 2 + ')');    
 </code></pre>
                     </section>
 
