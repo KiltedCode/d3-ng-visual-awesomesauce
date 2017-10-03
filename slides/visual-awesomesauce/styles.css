@@ -16,6 +16,11 @@ section img.conf-logo-end {
     width: 70%;
 }
 
+section img.conf-logo-end--mix {
+    max-width: 70%;
+    width: auto;
+}
+
 section img.angular {
     float: left;
     height: 200px;

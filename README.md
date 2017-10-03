@@ -1,6 +1,6 @@
 # d3-ng-visual-awesomesauce
 
-Code for the talk _D3 + Angular == Visual Awesomesauce_. Current version as presented at [Connect.Tech](http://connect.tech/) in Atlanta, GA on September 21, 2017.
+Code for the talk _D3 + Angular == Visual Awesomesauce_. Current version as presented at [AngularMix](https://angularmix.com/) in Orlando, FL on October 11, 2017.
 
 ## Abstract
 
