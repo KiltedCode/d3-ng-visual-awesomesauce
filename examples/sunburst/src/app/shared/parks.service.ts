@@ -2726,6 +2726,1649 @@ export class ParksService {
       resortName: 'Walt Disney World',
       favorite: false,
       note: ''
+    },
+
+
+    {
+      name: 'Croissant Moon Bakery',
+      areaName: 'Port of Entry',
+      type: 'food',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Confisco Grille',
+      areaName: 'Port of Entry',
+      type: 'food',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Backwater Bar',
+      areaName: 'Port of Entry',
+      type: 'food',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Starbucks',
+      areaName: 'Port of Entry',
+      type: 'food',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Cinnabon',
+      areaName: 'Port of Entry',
+      type: 'food',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Port of Entry Christmas Shoppe',
+      areaName: 'Port of Entry',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Islands of Adventure Trading Company',
+      areaName: 'Port of Entry',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Port Provisions',
+      areaName: 'Port of Entry',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Ocean Trader Market',
+      areaName: 'Port of Entry',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Island Market and Export Candy Shoppe',
+      areaName: 'Port of Entry',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'DeFoto\'s Expedition Photography',
+      areaName: 'Port of Entry',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'The Incredible Hulk Coaster',
+      areaName: 'Marvel Super Hero Island',
+      type: 'ride',
+      height: 54,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Storm Force Acceltron',
+      areaName: 'Marvel Super Hero Island',
+      type: 'ride',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Doctor Doom\'s Fearfall',
+      areaName: 'Marvel Super Hero Island',
+      type: 'ride',
+      height: 52,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'The Amazing Adventures of Spider Man',
+      areaName: 'Marvel Super Hero Island',
+      type: 'ride',
+      height: 40,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Cafe 4',
+      areaName: 'Marvel Super Hero Island',
+      type: 'food',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Captain America Diner',
+      areaName: 'Marvel Super Hero Island',
+      type: 'food',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Comic Book Shop',
+      areaName: 'Marvel Super Hero Island',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Spider-Man Shop',
+      areaName: 'Marvel Super Hero Island',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Marvel Alterniverse Store',
+      areaName: 'Marvel Super Hero Island',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Me Ship, The Olive',
+      areaName: 'Toon Lagoon',
+      type: 'ride',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Popeye & Bluto\'s Bilge-Rat Barges',
+      areaName: 'Toon Lagoon',
+      type: 'ride',
+      height: 42,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Dudley Do-Right\'s Ripsaw Falls',
+      areaName: 'Toon Lagoon',
+      type: 'ride',
+      height: 44,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Comic Strip Cafe',
+      areaName: 'Toon Lagoon',
+      type: 'food',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Blondie\'s',
+      areaName: 'Toon Lagoon',
+      type: 'food',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Wimpy\'s',
+      areaName: 'Toon Lagoon',
+      type: 'food',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Toon Extra',
+      areaName: 'Toon Lagoon',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Toon Lagoon Games',
+      areaName: 'Toon Lagoon',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Gasoline Alley',
+      areaName: 'Toon Lagoon',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Wossamotta-U',
+      areaName: 'Toon Lagoon',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Betty Boop Store',
+      areaName: 'Toon Lagoon',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Skull Island: Reign of Kong',
+      areaName: 'Skull Island: Reign of Kong',
+      type: 'ride',
+      height: 36,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Camp Jurassic',
+      areaName: 'Jurassic Park',
+      type: 'ride',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Pteranodon Flyers',
+      areaName: 'Jurassic Park',
+      type: 'ride',
+      height: 36,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Jurassic Park River Adventure',
+      areaName: 'Jurassic Park',
+      type: 'ride',
+      height: 42,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Jurassic Park Discovery Center',
+      areaName: 'Jurassic Park',
+      type: 'ride',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Thunder Falls Terrace',
+      areaName: 'Jurassic Park',
+      type: 'food',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Pizza Predatoria',
+      areaName: 'Jurassic Park',
+      type: 'food',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'The Burger Digs',
+      areaName: 'Jurassic Park',
+      type: 'food',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'The Watering Hole',
+      areaName: 'Jurassic Park',
+      type: 'food',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Dinostore',
+      areaName: 'Jurassic Park',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Jurassic Outfitters',
+      areaName: 'Jurassic Park',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Harry Potter and the Forbidden Journey',
+      areaName: 'The Wizarding World of Harry Potter - Hogsmeade',
+      type: 'ride',
+      height: 48,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Flight of the Hippogrif',
+      areaName: 'The Wizarding World of Harry Potter - Hogsmeade',
+      type: 'ride',
+      height: 36,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Frog Choir',
+      areaName: 'The Wizarding World of Harry Potter - Hogsmeade',
+      type: 'show',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Triwizard Spirit Rally',
+      areaName: 'The Wizarding World of Harry Potter - Hogsmeade',
+      type: 'show',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Ollivanders',
+      areaName: 'The Wizarding World of Harry Potter - Hogsmeade',
+      type: 'show',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Ollivanders',
+      areaName: 'The Wizarding World of Harry Potter - Hogsmeade',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Hogwarts Express - Hogsmeade Station',
+      areaName: 'The Wizarding World of Harry Potter - Hogsmeade',
+      type: 'ride',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Hog’s Head pub',
+      areaName: 'The Wizarding World of Harry Potter - Hogsmeade',
+      type: 'food',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Three Broomsticks',
+      areaName: 'The Wizarding World of Harry Potter - Hogsmeade',
+      type: 'food',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Honeydukes',
+      areaName: 'The Wizarding World of Harry Potter - Hogsmeade',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Owl Post',
+      areaName: 'The Wizarding World of Harry Potter - Hogsmeade',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Dervish and Banges',
+      areaName: 'The Wizarding World of Harry Potter - Hogsmeade',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Filch\'s Emporium of Confiscated Goods',
+      areaName: 'The Wizarding World of Harry Potter - Hogsmeade',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'The Eighth Voyage of Sindbad',
+      areaName: 'The Lost Continent',
+      type: 'show',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'The Mystic Fountain',
+      areaName: 'The Lost Continent',
+      type: 'show',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Poseidon’s Fury',
+      areaName: 'The Lost Continent',
+      type: 'show',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Doc Sugrue\'s Kebab House',
+      areaName: 'The Lost Continent',
+      type: 'food',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Fire-Eater\'s Grill',
+      areaName: 'The Lost Continent',
+      type: 'food',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Mythos Restaurant',
+      areaName: 'The Lost Continent',
+      type: 'food',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Treasures of Poseidon',
+      areaName: 'The Lost Continent',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Star Souls',
+      areaName: 'The Lost Continent',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Mythical Metals',
+      areaName: 'The Lost Continent',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Historic Families - Heraldry',
+      areaName: 'The Lost Continent',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Shop of Wonders',
+      areaName: 'The Lost Continent',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'The High in the Sky Seuss Trolley Train Ride',
+      areaName: 'Seuss Landing',
+      type: 'ride',
+      height: 40,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Caro-Seuss-el',
+      areaName: 'Seuss Landing',
+      type: 'ride',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'One Fish, Two Fish, Red Fish, Blue Fish',
+      areaName: 'Seuss Landing',
+      type: 'ride',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'The Cat in the Hat',
+      areaName: 'Seuss Landing',
+      type: 'ride',
+      height: 36,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'If I Ran the Zoo',
+      areaName: 'Seuss Landing',
+      type: 'ride',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Moose Juice, Goose Juice',
+      areaName: 'Seuss Landing',
+      type: 'food',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Hop On Pop Ice Cream Shop',
+      areaName: 'Seuss Landing',
+      type: 'food',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Circus McGurkus Cafe Stoo-pendous',
+      areaName: 'Seuss Landing',
+      type: 'food',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Green Eggs & Ham Cafe',
+      areaName: 'Seuss Landing',
+      type: 'food',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Oh! The Stories You\'ll Hear!',
+      areaName: 'Seuss Landing',
+      type: 'show',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Snookers & Snookers Sweet Candy Cookers',
+      areaName: 'Seuss Landing',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Mulberry Street Store',
+      areaName: 'Seuss Landing',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Cats, Hats & Things',
+      areaName: 'Seuss Landing',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'All The Books You Can Read',
+      areaName: 'Seuss Landing',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+
+    {
+      name: 'Despicable Me Minion Mayhem',
+      areaName: 'Production Central',
+      type: 'ride',
+      height: 40,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Shrek 4-D',
+      areaName: 'Production Central',
+      type: 'ride',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Hollywood Rip Ride Rockit',
+      areaName: 'Production Central',
+      type: 'ride',
+      height: 51,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'TRANSFORMERS: The Ride-3D',
+      areaName: 'Production Central',
+      type: 'ride',
+      height: 40,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Universal Studios\' Classic Monsters Cafe',
+      areaName: 'Production Central',
+      type: 'food',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Super Silly Stuff',
+      areaName: 'Production Central',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Hello Kitty',
+      areaName: 'Production Central',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Supply Vault',
+      areaName: 'Production Central',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Studio Styles',
+      areaName: 'Production Central',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'On Location',
+      areaName: 'Production Central',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'The Film Vault',
+      areaName: 'Production Central',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Studio Sweets',
+      areaName: 'Production Central',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Park Plaza Holiday Shop',
+      areaName: 'Production Central',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Shrek\'s Ye Olde Souvenir Shoppe',
+      areaName: 'Production Central',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'It\'s A Wrap',
+      areaName: 'Production Central',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Sahara Traders',
+      areaName: 'Production Central',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Betty Boop Store',
+      areaName: 'Production Central',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Race Through New York Starring Jimmy Fallon',
+      areaName: 'New York',
+      type: 'ride',
+      height: 40,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Revenge of the Mummy',
+      areaName: 'New York',
+      type: 'ride',
+      height: 48,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'The Blues Brothers Show',
+      areaName: 'New York',
+      type: 'show',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Finnegan\'s Bar & Grill',
+      areaName: 'New York',
+      type: 'food',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Louie\'s Italian Restaurant',
+      areaName: 'New York',
+      type: 'food',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Ben & Jerry’s Ice Cream',
+      areaName: 'New York',
+      type: 'food',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Starbucks',
+      areaName: 'New York',
+      type: 'food',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Rosie\'s Irish Shop',
+      areaName: 'New York',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'The Tonight Shop',
+      areaName: 'New York',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Amazing Pictures',
+      areaName: 'New York',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Richter\'s Burger Co.',
+      areaName: 'San Francisco',
+      type: 'food',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Chez Alcatraz',
+      areaName: 'San Francisco',
+      type: 'food',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Lombard\'s Seafood Grille',
+      areaName: 'San Francisco',
+      type: 'food',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'San Francisco Pastry Company',
+      areaName: 'San Francisco',
+      type: 'food',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'San Francisco Candy Factory',
+      areaName: 'San Francisco',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Hogwarts Express - King\'s Cross Station',
+      areaName: 'The Wizarding World of Harry Potter - Diagon Alley',
+      type: 'ride',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Knight Bus',
+      areaName: 'The Wizarding World of Harry Potter - Diagon Alley',
+      type: 'show',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Harry Potter and the Escape from Gringotts',
+      areaName: 'The Wizarding World of Harry Potter - Diagon Alley',
+      type: 'ride',
+      height: 42,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Ollivanders',
+      areaName: 'The Wizarding World of Harry Potter - Diagon Alley',
+      type: 'show',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Gringotts Money Exchange',
+      areaName: 'The Wizarding World of Harry Potter - Diagon Alley',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'The Tales of Beedle the Bard',
+      areaName: 'The Wizarding World of Harry Potter - Diagon Alley',
+      type: 'show',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Celestina Warbeck and the Banshees',
+      areaName: 'The Wizarding World of Harry Potter - Diagon Alley',
+      type: 'show',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Leaky Cauldron',
+      areaName: 'The Wizarding World of Harry Potter - Diagon Alley',
+      type: 'food',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Florean Fortescue\'s Ice-Cream Parlour',
+      areaName: 'The Wizarding World of Harry Potter - Diagon Alley',
+      type: 'food',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Fountain of Fair Fortune',
+      areaName: 'The Wizarding World of Harry Potter - Diagon Alley',
+      type: 'food',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'The Hopping Pot',
+      areaName: 'The Wizarding World of Harry Potter - Diagon Alley',
+      type: 'food',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Weasleys\' Wizard Wheezes',
+      areaName: 'The Wizarding World of Harry Potter - Diagon Alley',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Sugarplum\'s Sweet Shop',
+      areaName: 'The Wizarding World of Harry Potter - Diagon Alley',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Wands by Gregorovitch',
+      areaName: 'The Wizarding World of Harry Potter - Diagon Alley',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Quality Quidditch Supplies',
+      areaName: 'The Wizarding World of Harry Potter - Diagon Alley',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Magical Menagerie',
+      areaName: 'The Wizarding World of Harry Potter - Diagon Alley',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Madam Malkin\'s Robes for all Occasions',
+      areaName: 'The Wizarding World of Harry Potter - Diagon Alley',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Scribbulus',
+      areaName: 'The Wizarding World of Harry Potter - Diagon Alley',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Borgin and Burkes',
+      areaName: 'The Wizarding World of Harry Potter - Diagon Alley',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Wiseacre\'s Wizarding Equipment',
+      areaName: 'The Wizarding World of Harry Potter - Diagon Alley',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Shutterbutton\'s',
+      areaName: 'The Wizarding World of Harry Potter - Diagon Alley',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'FEAR FACTOR LIVE',
+      areaName: 'World Expo',
+      type: 'show',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'MEN IN BLACK Alien Attack',
+      areaName: 'World Expo',
+      type: 'ride',
+      height: 42,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'MIB Gear',
+      areaName: 'World Expo',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'The Simpsons Ride',
+      areaName: 'Springfield: Home of the Simpsons',
+      type: 'ride',
+      height: 40,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Kang & Kodos\' Twirl \'n\' Hurl',
+      areaName: 'Springfield: Home of the Simpsons',
+      type: 'ride',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Duff Brewery',
+      areaName: 'Springfield: Home of the Simpsons',
+      type: 'food',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Fast Food Boulevard',
+      areaName: 'Springfield: Home of the Simpsons',
+      type: 'food',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Moe\'s Tavern',
+      areaName: 'Springfield: Home of the Simpsons',
+      type: 'food',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Simpsons Games',
+      areaName: 'Springfield: Home of the Simpsons',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Kwik-E-Mart',
+      areaName: 'Springfield: Home of the Simpsons',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Animal Actors on Location!',
+      areaName: 'Woody Woodpecker\'s KidZone',
+      type: 'show',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'A Day in the Park with Barney',
+      areaName: 'Woody Woodpecker\'s KidZone',
+      type: 'show',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Curious George Goes To Town',
+      areaName: 'Woody Woodpecker\'s KidZone',
+      type: 'ride',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Woody Woodpecker\'s Nuthouse Coaster',
+      areaName: 'Woody Woodpecker\'s KidZone',
+      type: 'ride',
+      height: 36,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Fievel\'s Playland',
+      areaName: 'Woody Woodpecker\'s KidZone',
+      type: 'ride',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'E.T. Adventure',
+      areaName: 'Woody Woodpecker\'s KidZone',
+      type: 'ride',
+      height: 34,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'KidZone Pizza Company',
+      areaName: 'Woody Woodpecker\'s KidZone',
+      type: 'food',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'E.T.\'s Toy Closet & Photo Spot',
+      areaName: 'Woody Woodpecker\'s KidZone',
+      type: 'shop',
+      height: 34,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'The Barney Shop',
+      areaName: 'Woody Woodpecker\'s KidZone',
+      type: 'shop',
+      height: 34,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'SpongeBob StorePants',
+      areaName: 'Woody Woodpecker\'s KidZone',
+      type: 'shop',
+      height: 34,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Universal Orlando’s Horror Make-up Show',
+      areaName: 'Hollywood',
+      type: 'show',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'TERMINATOR 2: 3-D',
+      areaName: 'Hollywood',
+      type: 'show',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Cafe La Bamba',
+      areaName: 'Hollywood',
+      type: 'food',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Mel\'s Drive-In',
+      areaName: 'Hollywood',
+      type: 'food',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Schwab\'s Pharmacy',
+      areaName: 'Hollywood',
+      type: 'food',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Beverly Hills Boulangerie',
+      areaName: 'Hollywood',
+      type: 'food',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Cyber Image',
+      areaName: 'Hollywood',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Williams of Hollywood',
+      areaName: 'Hollywood',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Brown Derby Hat Shop',
+      areaName: 'Hollywood',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Universal\'s Superstar Parade',
+      areaName: 'Park-Wide Performances',
+      type: 'show',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Universal\'s Cinematic Spectacular',
+      areaName: 'Park-Wide Performances',
+      type: 'show',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
     }
   ];
 
