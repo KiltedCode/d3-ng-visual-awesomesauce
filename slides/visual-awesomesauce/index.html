@@ -114,96 +114,17 @@
 
                     <section id="d3-gons-pentagon">
                         <h2>Creating Shapes: Pentagon</h2>
-<pre><code>
-var pentagon = 
-    d3.line()
-        .x(function(d) { return d.x; })
-        .y(function(d) { return d.y; })
-        .curve(d3.curveLinearClosed);;
-        
-var pentData = [
-        {'x': 295, 'y': 169},
-        {'x': 200, 'y': 100},
-        {'x': 105, 'y': 169},
-        {'x': 141, 'y': 281},
-        {'x': 259, 'y': 281}
-    ];
-
-var svg = 
-    d3.select('body')
-        .append('svg')
-        .attr('width', 500)
-        .attr('height', 500);
-
-
-var path = 
-    svg.append('path')
-        .attr('d', pentagon(pentData))
-        .attr('stroke', 'red')
-        .attr('stroke-width', 3)
-        .attr('fill', 'rgba(255, 0, 0, 0.3)');
-</code></pre>
-                        <img src="/assets/img/pentagon.png" alt="Pentagon Output" class="fragment center-img" />
+                        <p><a href="https://codepen.io/rhgeek/pen/qPoWwB/">https://codepen.io/rhgeek/pen/qPoWwB/</a></p>
                     </section>
                     
                     <section id="d3-gons-hexagon">
                         <h2>Creating Shapes: Hexagon</h2>
-<pre><code>
-var polygon = 
-    d3.line()
-        .x(function(d) { return d.x; })
-        .y(function(d) { return d.y; })
-        .curve(d3.curveLinearClosed);;
-
-var hexData = [
-        {'x': 300, 'y': 200},
-        {'x': 250, 'y': 113},
-        {'x': 150, 'y': 113},
-        {'x': 100, 'y': 200},
-        {'x': 150, 'y': 287},
-        {'x': 250, 'y': 287}
-    ];
-
-var svg = 
-    d3.select('body')
-        .append('svg')
-        .attr('width', 500)
-        .attr('height', 500);
-
-
-var path = 
-    svg.append('path')
-        .attr('d', polygon(hexData))
-        .attr('stroke', 'blue')
-        .attr('stroke-width', 3)
-        .attr('fill', 'rgba(0, 0, 255, 0.3)');
-</code></pre>
-                        <img src="/assets/img/hexagon.png" alt="Hexagon Output" class="fragment center-img" />
+                        <p><a href="https://codepen.io/rhgeek/pen/MEVgRz">https://codepen.io/rhgeek/pen/MEVgRz</a></p>
                     </section>
                     
                     <section id="d3-gons-pentagon">
                         <h2>Creating Shapes: Arc</h2>
-<pre><code>
-var arcGen = d3.arc()
-    .innerRadius(0)
-    .outerRadius(95)
-    .startAngle(2 * Math.PI + Math.PI / 4)
-    .endAngle(Math.PI - Math.PI / 4); 
-    
-var svg = 
-    d3.select('body')
-        .append('svg')
-        .attr('width', 500)
-        .attr('height', 500);
-
-svg.append('path')
-    .attr('d', arcGen())
-    .attr('stroke', 'rgb(253,255,0)')
-    .attr('stroke-width', 3)
-    .attr('fill', 'rgba(253,255,0, 0.4)')
-    .attr('transform', 'translate(200, 200)');
-</code></pre>
-                        <img src="/assets/img/omnomnomagon.png" alt="Arc Output" class="fragment center-img" />
+                        <p><a href="https://codepen.io/rhgeek/pen/NaYKZy">https://codepen.io/rhgeek/pen/NaYKZy</a></p>
                     </section>
                     
                     <section id="d3-gons-output">
@@ -228,7 +149,7 @@ svg.append('path')
                         <p>
                             Getting started is as easy as SVG
                         </p>
-<pre><code>
+<pre><code data-trim>
 var width = 500,
     height = 500;
 var svg = d3.select('body')
@@ -246,7 +167,7 @@ var svg = d3.select('body')
                             Power by defining a function to use with data. In our case arc.
                         </p>
 <pre>
-<code>
+<code data-trim>
 var xScale = d3.scaleLinear()
     .range([0, 2 * Math.PI]);
 var yScale = d3.scaleSqrt()
@@ -287,7 +208,7 @@ var arc = d3.arc()
 
                     <section id="gup-code">
                             <h2>General Update Pattern</h2>
-<pre><code>
+<pre><code data-trim>
 root = d3.hierarchy(tree);
 root.sum(function(d) { return d.size; });
 
@@ -397,7 +318,7 @@ path.exit()
 
                     <section id="powers-restructure-ngoninit">
                         <h2>Restructure: ngOnInit</h2>
-<pre><code>
+<pre><code data-trim>
 ngOnInit() {
     this.created = false;
     this.attractionTree = {
@@ -413,7 +334,7 @@ ngOnInit() {
 
                     <section id="powers-restructure-chart">
                         <h2>Restructure: Create Chart</h2>
-<pre><code>
+<pre><code data-trim>
 @ViewChild('chart') 
 private chartContainer: ElementRef;
 
@@ -464,7 +385,7 @@ private createChart(): void {
 
                     <section id="powers-restructure-chart">
                         <h2>Restructure: Update Chart</h2>
-<pre><code>
+<pre><code data-trim>
 private updateChart(tree: any): void {
     this.root = d3.hierarchy(tree);
     this.root.sum(function(d) { return d.size; });
@@ -508,7 +429,7 @@ private updateChart(tree: any): void {
 
                     <section id="powers-input">
                         <h2>@Input</h2>
-<pre><code>
+<pre><code data-trim>
 @Input()
 set attractions(attrs: ParkAttraction[]) {
     if (attrs) {
@@ -527,9 +448,9 @@ set attractions(attrs: ParkAttraction[]) {
 
                     <section id="powers-output">
                         <h2>@Output</h2>
-<pre><code>
+<pre><code class="groovy" data-trim>
 @Output()
-onArc: EventEmitter<any> = new EventEmitter<any>();
+onArc: EventEmitter&lt;any&gt; = new EventEmitter&lt;any&gt;();
 
 private clickArc(d: any): void {
     let clickedFilter = {};
@@ -548,7 +469,7 @@ private clickArc(d: any): void {
                     
                     <section id="powers-html">
                         <h2>HTML Template</h2>
-<pre><code>
+<pre><code data-trim>
 <rhsun-park-sunburst
     [attractions]="attractions"
     [filters]="filters"
