@@ -2930,6 +2930,26 @@ export class ParksService {
       note: ''
     },
     {
+      name: 'Spider-Man Appearing at the Marvel Alterniverse Store',
+      areaName: 'Marvel Super Hero Island',
+      type: 'character',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Meet Spider-Man and the Marvel Super Heroes',
+      areaName: 'Marvel Super Hero Island',
+      type: 'character',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
       name: 'Me Ship, The Olive',
       areaName: 'Toon Lagoon',
       type: 'ride',
@@ -3040,6 +3060,16 @@ export class ParksService {
       note: ''
     },
     {
+      name: 'Classic Comic Book Characters',
+      areaName: 'Toon Lagoon',
+      type: 'character',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
       name: 'Skull Island: Reign of Kong',
       areaName: 'Skull Island: Reign of Kong',
       type: 'ride',
@@ -3143,6 +3173,16 @@ export class ParksService {
       name: 'Jurassic Outfitters',
       areaName: 'Jurassic Park',
       type: 'shop',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Raptor Encounter',
+      areaName: 'Jurassic Park',
+      type: 'character',
       height: 0,
       parkName: 'Universal\'s Island of Adventure',
       resortName: 'Universal Orlando',
@@ -3529,7 +3569,16 @@ export class ParksService {
       favorite: false,
       note: ''
     },
-
+    {
+      name: 'Dr. Seuss Character Zone',
+      areaName: 'Seuss Landing',
+      type: 'shop',
+      height: 0,
+      parkName: 'Universal\'s Island of Adventure',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
     {
       name: 'Despicable Me Minion Mayhem',
       areaName: 'Production Central',
@@ -3594,6 +3643,36 @@ export class ParksService {
       name: 'Hello Kitty',
       areaName: 'Production Central',
       type: 'shop',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Character Party Zone',
+      areaName: 'Production Central',
+      type: 'character',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Meet The TRANSFORMERS',
+      areaName: 'Production Central',
+      type: 'character',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Meet Shrek and Donkey',
+      areaName: 'Production Central',
+      type: 'character',
       height: 0,
       parkName: 'Universal Studios Orlando',
       resortName: 'Universal Orlando',
@@ -4161,6 +4240,16 @@ export class ParksService {
       note: ''
     },
     {
+      name: 'The Simpsons Character Zone',
+      areaName: 'Springfield: Home of the Simpsons',
+      type: 'character',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
       name: 'Animal Actors on Location!',
       areaName: 'Woody Woodpecker\'s KidZone',
       type: 'show',
@@ -4261,6 +4350,16 @@ export class ParksService {
       note: ''
     },
     {
+      name: 'Meet SpongeBob SquarePants',
+      areaName: 'Woody Woodpecker\'s KidZone',
+      type: 'character',
+      height: 34,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
       name: 'Universal Orlando’s Horror Make-up Show',
       areaName: 'Hollywood',
       type: 'show',
@@ -4351,6 +4450,16 @@ export class ParksService {
       note: ''
     },
     {
+      name: 'Hollywood Character Zone',
+      areaName: 'Hollywood',
+      type: 'character',
+      height: 0,
+      parkName: 'Universal Studios Orlando',
+      resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+    {
       name: 'Universal\'s Superstar Parade',
       areaName: 'Park-Wide Performances',
       type: 'show',
@@ -4367,6 +4476,958 @@ export class ParksService {
       height: 0,
       parkName: 'Universal Studios Orlando',
       resortName: 'Universal Orlando',
+      favorite: false,
+      note: ''
+    },
+
+
+    {
+      name: 'Imagination Pavillion',
+      areaName: 'Imagination Zone',
+      type: 'ride',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'LEGO Mindstorms',
+      areaName: 'Imagination Zone',
+      type: 'ride',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Building Zone',
+      areaName: 'Imagination Zone',
+      type: 'ride',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Creation Zone',
+      areaName: 'Imagination Zone',
+      type: 'ride',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Flight Zone',
+      areaName: 'Imagination Zone',
+      type: 'ride',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Water Zone',
+      areaName: 'Imagination Zone',
+      type: 'ride',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Wheels Zone',
+      areaName: 'Imagination Zone',
+      type: 'ride',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Education Zone',
+      areaName: 'Imagination Zone',
+      type: 'ride',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Warner Bros Games Zone',
+      areaName: 'Imagination Zone',
+      type: 'ride',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Technicycle',
+      areaName: 'Imagination Zone',
+      type: 'food',
+      height: 36,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'AQUAZONE Wave Racers',
+      areaName: 'LEGO Technic',
+      type: 'ride',
+      height: 40,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Kids Power Tower',
+      areaName: 'LEGO Technic',
+      type: 'ride',
+      height: 36,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'DUPLO Tot Spot',
+      areaName: 'LEGO Technic',
+      type: 'ride',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Project X',
+      areaName: 'LEGO Technic',
+      type: 'ride',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Cypress Gardens',
+      areaName: 'Pirates\' Cove',
+      type: 'ride',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Pirates\' Cove Live Water Ski Show',
+      areaName: 'Pirates\' Cove',
+      type: 'show',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'KIDS BOP Stadium',
+      areaName: 'Pirates\' Cove',
+      type: 'show',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Las Vegas',
+      areaName: 'MINILAND USA',
+      type: 'ride',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'New York',
+      areaName: 'MINILAND USA',
+      type: 'ride',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'LEGO Star Wars',
+      areaName: 'MINILAND USA',
+      type: 'ride',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Washington, D.C.',
+      areaName: 'MINILAND USA',
+      type: 'ride',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'California',
+      areaName: 'MINILAND USA',
+      type: 'ride',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Pirates\' Shores',
+      areaName: 'MINILAND USA',
+      type: 'ride',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Florida',
+      areaName: 'MINILAND USA',
+      type: 'ride',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Kennedy Space Center',
+      areaName: 'MINILAND USA',
+      type: 'ride',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Daytona International Speedway',
+      areaName: 'MINILAND USA',
+      type: 'ride',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Ice Cream Parlor',
+      areaName: 'Heartlake City',
+      type: 'food',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Sunshine Sweets',
+      areaName: 'Heartlake City',
+      type: 'shop',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Heartlake Mall',
+      areaName: 'Heartlake City',
+      type: 'shop',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Friends to the Rescue Live Show',
+      areaName: 'Heartlake City',
+      type: 'show',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Mia\'s Riding Adventure',
+      areaName: 'Heartlake City',
+      type: 'ride',
+      height: 48,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Fun Town Pizza & Pasta Buffet',
+      areaName: 'Fun Town',
+      type: 'food',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Wells Fargo Fun Town 4D Theater',
+      areaName: 'Fun Town',
+      type: 'show',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Fun Town Slushies',
+      areaName: 'Fun Town',
+      type: 'food',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Minifigure Market',
+      areaName: 'Fun Town',
+      type: 'shop',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'The Grand Carousel',
+      areaName: 'Fun Town',
+      type: 'ride',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'LEGO Studio Store',
+      areaName: 'Fun Town',
+      type: 'shop',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Granny\'s Apple Fries',
+      areaName: 'Fun Town',
+      type: 'food',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'LEGO Factory Experience',
+      areaName: 'Fun Town',
+      type: 'ride',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Island in the Sky',
+      areaName: 'The Beginning',
+      type: 'ride',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Coca-Cola Freestyle Station',
+      areaName: 'The Beginning',
+      type: 'food',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Create-a-Shake',
+      areaName: 'The Beginning',
+      type: 'food',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Market Coffee Shop',
+      areaName: 'The Beginning',
+      type: 'food',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Market Restaurant',
+      areaName: 'The Beginning',
+      type: 'food',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Pepper and Roni\'s Pizza Stop',
+      areaName: 'The Beginning',
+      type: 'food',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'The Big Shop',
+      areaName: 'The Beginning',
+      type: 'shop',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Flying School Tot Spot',
+      areaName: 'LEGO City',
+      type: 'ride',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Flying School',
+      areaName: 'LEGO City',
+      type: 'ride',
+      height: 44,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Ford Driving School',
+      areaName: 'LEGO City',
+      type: 'ride',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Fried Chicken Co.',
+      areaName: 'LEGO City',
+      type: 'food',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Firehouse Ice Cream',
+      areaName: 'LEGO City',
+      type: 'food',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Ford Jr Driving School',
+      areaName: 'LEGO City',
+      type: 'ride',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'NFPA Rescue Academy',
+      areaName: 'LEGO City',
+      type: 'ride',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Boating School',
+      areaName: 'LEGO City',
+      type: 'ride',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'LEGO City Burger Kitchen',
+      areaName: 'LEGO City',
+      type: 'food',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'LEGO NINJAGO The Ride',
+      areaName: 'LEGO NINJAGO World',
+      type: 'ride',
+      height: 48,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Zane\'s Temple Build',
+      areaName: 'LEGO NINJAGO World',
+      type: 'ride',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Cole\'s Rock Climb',
+      areaName: 'LEGO NINJAGO World',
+      type: 'ride',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Jay\'s Lightning Drill',
+      areaName: 'LEGO NINJAGO World',
+      type: 'ride',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Kai\'s Spinners',
+      areaName: 'LEGO NINJAGO World',
+      type: 'ride',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Wu\'s Warehouse',
+      areaName: 'LEGO NINJAGO World',
+      type: 'shop',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Dino Treats',
+      areaName: 'Land of Adventure',
+      type: 'food',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Adventure Snacks',
+      areaName: 'Land of Adventure',
+      type: 'food',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Coastersaurus',
+      areaName: 'Land of Adventure',
+      type: 'ride',
+      height: 42,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Safari Trek',
+      areaName: 'Land of Adventure',
+      type: 'ride',
+      height: 34,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Beetle Bounce',
+      areaName: 'Land of Adventure',
+      type: 'ride',
+      height: 36,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'The Lost Kingdom Adventure',
+      areaName: 'Land of Adventure',
+      type: 'ride',
+      height: 30,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Royal Joust',
+      areaName: 'LEGO Kingdoms',
+      type: 'ride',
+      height: 36,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Castle Burger',
+      areaName: 'LEGO Kingdoms',
+      type: 'food',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'The Dragon',
+      areaName: 'LEGO Kingdoms',
+      type: 'ride',
+      height: 40,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Kingdom Cones',
+      areaName: 'LEGO Kingdoms',
+      type: 'food',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Forestman\'s Hideout',
+      areaName: 'LEGO Kingdoms',
+      type: 'ride',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'The King\'s Market',
+      areaName: 'LEGO Kingdoms',
+      type: 'shop',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Merlin\'s Challenge',
+      areaName: 'LEGO Kingdoms',
+      type: 'ride',
+      height: 36,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'DUPLO Farm',
+      areaName: 'DUPLO Valley',
+      type: 'ride',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'DUPLO Tractor',
+      areaName: 'DUPLO Valley',
+      type: 'ride',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'DUPLO Train',
+      areaName: 'DUPLO Valley',
+      type: 'ride',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Technic Tot Spot',
+      areaName: 'DUPLO Valley',
+      type: 'ride',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'DUPLO Splash & Play',
+      areaName: 'DUPLO Valley',
+      type: 'ride',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Cragger\'s Swamp',
+      areaName: 'World of CHIMA',
+      type: 'ride',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Razar\'s Bazaar',
+      areaName: 'World of CHIMA',
+      type: 'shop',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Quest for CHI',
+      areaName: 'World of CHIMA',
+      type: 'ride',
+      height: 48,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Ice Cream Hut',
+      areaName: 'Water Park',
+      type: 'food',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Twin Chasers',
+      areaName: 'Water Park',
+      type: 'ride',
+      height: 42,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Splash Out',
+      areaName: 'Water Park',
+      type: 'ride',
+      height: 48,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Joker Soaker',
+      areaName: 'Water Park',
+      type: 'ride',
+      height: 36,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'LEGO Wave Pool',
+      areaName: 'Water Park',
+      type: 'ride',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Waveside Burrito',
+      areaName: 'Water Park',
+      type: 'food',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Creative Cove',
+      areaName: 'Water Park',
+      type: 'ride',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'DUPLO Splash Safari',
+      areaName: 'Water Park',
+      type: 'ride',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'River Raft ICEE',
+      areaName: 'Water Park',
+      type: 'food',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Build-a-Raft River',
+      areaName: 'Water Park',
+      type: 'ride',
+      height: 42,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Beach-n-Brick Bar',
+      areaName: 'Water Park',
+      type: 'food',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Beach-n-Brick Grill',
+      areaName: 'Water Park',
+      type: 'food',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
+      favorite: false,
+      note: ''
+    },
+    {
+      name: 'Surf Shop',
+      areaName: 'Water Park',
+      type: 'shop',
+      height: 0,
+      parkName: 'LEGOLAND Florida',
+      resortName: 'LEGOLAND Florida Resort',
       favorite: false,
       note: ''
     }

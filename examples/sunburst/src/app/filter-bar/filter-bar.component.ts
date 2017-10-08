@@ -56,6 +56,7 @@ export class FilterBarComponent implements OnInit {
       'Magic Kingdom', 
       'Disney\'s Hollywood Studios', 
       'Disney\'s Animal Kingdom',
+      'LEGOLAND Florida',
       'Universal\'s Island of Adventure',
       'Universal Studios Orlando'
     ];
