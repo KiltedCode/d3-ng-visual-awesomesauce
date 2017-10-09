@@ -2734,7 +2734,7 @@ export class ParksService {
       areaName: 'Port of Entry',
       type: 'food',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -2744,7 +2744,7 @@ export class ParksService {
       areaName: 'Port of Entry',
       type: 'food',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -2754,7 +2754,7 @@ export class ParksService {
       areaName: 'Port of Entry',
       type: 'food',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -2764,7 +2764,7 @@ export class ParksService {
       areaName: 'Port of Entry',
       type: 'food',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -2774,7 +2774,7 @@ export class ParksService {
       areaName: 'Port of Entry',
       type: 'food',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -2784,7 +2784,7 @@ export class ParksService {
       areaName: 'Port of Entry',
       type: 'shop',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -2794,7 +2794,7 @@ export class ParksService {
       areaName: 'Port of Entry',
       type: 'shop',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -2804,7 +2804,7 @@ export class ParksService {
       areaName: 'Port of Entry',
       type: 'shop',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -2814,7 +2814,7 @@ export class ParksService {
       areaName: 'Port of Entry',
       type: 'shop',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -2824,7 +2824,7 @@ export class ParksService {
       areaName: 'Port of Entry',
       type: 'shop',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -2834,7 +2834,7 @@ export class ParksService {
       areaName: 'Port of Entry',
       type: 'shop',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -2844,7 +2844,7 @@ export class ParksService {
       areaName: 'Marvel Super Hero Island',
       type: 'ride',
       height: 54,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -2854,7 +2854,7 @@ export class ParksService {
       areaName: 'Marvel Super Hero Island',
       type: 'ride',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -2864,7 +2864,7 @@ export class ParksService {
       areaName: 'Marvel Super Hero Island',
       type: 'ride',
       height: 52,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -2874,7 +2874,7 @@ export class ParksService {
       areaName: 'Marvel Super Hero Island',
       type: 'ride',
       height: 40,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -2884,7 +2884,7 @@ export class ParksService {
       areaName: 'Marvel Super Hero Island',
       type: 'food',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -2894,7 +2894,7 @@ export class ParksService {
       areaName: 'Marvel Super Hero Island',
       type: 'food',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -2904,7 +2904,7 @@ export class ParksService {
       areaName: 'Marvel Super Hero Island',
       type: 'shop',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -2914,7 +2914,7 @@ export class ParksService {
       areaName: 'Marvel Super Hero Island',
       type: 'shop',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -2924,7 +2924,7 @@ export class ParksService {
       areaName: 'Marvel Super Hero Island',
       type: 'shop',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -2934,7 +2934,7 @@ export class ParksService {
       areaName: 'Marvel Super Hero Island',
       type: 'character',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -2944,7 +2944,7 @@ export class ParksService {
       areaName: 'Marvel Super Hero Island',
       type: 'character',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -2954,7 +2954,7 @@ export class ParksService {
       areaName: 'Toon Lagoon',
       type: 'ride',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -2964,7 +2964,7 @@ export class ParksService {
       areaName: 'Toon Lagoon',
       type: 'ride',
       height: 42,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -2974,7 +2974,7 @@ export class ParksService {
       areaName: 'Toon Lagoon',
       type: 'ride',
       height: 44,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -2984,7 +2984,7 @@ export class ParksService {
       areaName: 'Toon Lagoon',
       type: 'food',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -2994,7 +2994,7 @@ export class ParksService {
       areaName: 'Toon Lagoon',
       type: 'food',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3004,7 +3004,7 @@ export class ParksService {
       areaName: 'Toon Lagoon',
       type: 'food',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3014,7 +3014,7 @@ export class ParksService {
       areaName: 'Toon Lagoon',
       type: 'shop',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3024,7 +3024,7 @@ export class ParksService {
       areaName: 'Toon Lagoon',
       type: 'shop',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3034,7 +3034,7 @@ export class ParksService {
       areaName: 'Toon Lagoon',
       type: 'shop',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3044,7 +3044,7 @@ export class ParksService {
       areaName: 'Toon Lagoon',
       type: 'shop',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3054,7 +3054,7 @@ export class ParksService {
       areaName: 'Toon Lagoon',
       type: 'shop',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3064,7 +3064,7 @@ export class ParksService {
       areaName: 'Toon Lagoon',
       type: 'character',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3074,7 +3074,7 @@ export class ParksService {
       areaName: 'Skull Island: Reign of Kong',
       type: 'ride',
       height: 36,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3084,7 +3084,7 @@ export class ParksService {
       areaName: 'Jurassic Park',
       type: 'ride',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3094,7 +3094,7 @@ export class ParksService {
       areaName: 'Jurassic Park',
       type: 'ride',
       height: 36,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3104,7 +3104,7 @@ export class ParksService {
       areaName: 'Jurassic Park',
       type: 'ride',
       height: 42,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3114,7 +3114,7 @@ export class ParksService {
       areaName: 'Jurassic Park',
       type: 'ride',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3124,7 +3124,7 @@ export class ParksService {
       areaName: 'Jurassic Park',
       type: 'food',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3134,7 +3134,7 @@ export class ParksService {
       areaName: 'Jurassic Park',
       type: 'food',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3144,7 +3144,7 @@ export class ParksService {
       areaName: 'Jurassic Park',
       type: 'food',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3154,7 +3154,7 @@ export class ParksService {
       areaName: 'Jurassic Park',
       type: 'food',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3164,7 +3164,7 @@ export class ParksService {
       areaName: 'Jurassic Park',
       type: 'shop',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3174,7 +3174,7 @@ export class ParksService {
       areaName: 'Jurassic Park',
       type: 'shop',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3184,7 +3184,7 @@ export class ParksService {
       areaName: 'Jurassic Park',
       type: 'character',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3194,7 +3194,7 @@ export class ParksService {
       areaName: 'The Wizarding World of Harry Potter - Hogsmeade',
       type: 'ride',
       height: 48,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3204,7 +3204,7 @@ export class ParksService {
       areaName: 'The Wizarding World of Harry Potter - Hogsmeade',
       type: 'ride',
       height: 36,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3214,7 +3214,7 @@ export class ParksService {
       areaName: 'The Wizarding World of Harry Potter - Hogsmeade',
       type: 'show',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3224,7 +3224,7 @@ export class ParksService {
       areaName: 'The Wizarding World of Harry Potter - Hogsmeade',
       type: 'show',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3234,7 +3234,7 @@ export class ParksService {
       areaName: 'The Wizarding World of Harry Potter - Hogsmeade',
       type: 'show',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3244,7 +3244,7 @@ export class ParksService {
       areaName: 'The Wizarding World of Harry Potter - Hogsmeade',
       type: 'shop',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3254,7 +3254,7 @@ export class ParksService {
       areaName: 'The Wizarding World of Harry Potter - Hogsmeade',
       type: 'ride',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3264,7 +3264,7 @@ export class ParksService {
       areaName: 'The Wizarding World of Harry Potter - Hogsmeade',
       type: 'food',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3274,7 +3274,7 @@ export class ParksService {
       areaName: 'The Wizarding World of Harry Potter - Hogsmeade',
       type: 'food',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3284,7 +3284,7 @@ export class ParksService {
       areaName: 'The Wizarding World of Harry Potter - Hogsmeade',
       type: 'shop',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3294,7 +3294,7 @@ export class ParksService {
       areaName: 'The Wizarding World of Harry Potter - Hogsmeade',
       type: 'shop',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3304,7 +3304,7 @@ export class ParksService {
       areaName: 'The Wizarding World of Harry Potter - Hogsmeade',
       type: 'shop',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3314,7 +3314,7 @@ export class ParksService {
       areaName: 'The Wizarding World of Harry Potter - Hogsmeade',
       type: 'shop',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3324,7 +3324,7 @@ export class ParksService {
       areaName: 'The Lost Continent',
       type: 'show',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3334,7 +3334,7 @@ export class ParksService {
       areaName: 'The Lost Continent',
       type: 'show',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3344,7 +3344,7 @@ export class ParksService {
       areaName: 'The Lost Continent',
       type: 'show',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3354,7 +3354,7 @@ export class ParksService {
       areaName: 'The Lost Continent',
       type: 'food',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3364,7 +3364,7 @@ export class ParksService {
       areaName: 'The Lost Continent',
       type: 'food',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3374,7 +3374,7 @@ export class ParksService {
       areaName: 'The Lost Continent',
       type: 'food',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3384,7 +3384,7 @@ export class ParksService {
       areaName: 'The Lost Continent',
       type: 'shop',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3394,7 +3394,7 @@ export class ParksService {
       areaName: 'The Lost Continent',
       type: 'shop',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3404,7 +3404,7 @@ export class ParksService {
       areaName: 'The Lost Continent',
       type: 'shop',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3414,7 +3414,7 @@ export class ParksService {
       areaName: 'The Lost Continent',
       type: 'shop',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3424,7 +3424,7 @@ export class ParksService {
       areaName: 'The Lost Continent',
       type: 'shop',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3434,7 +3434,7 @@ export class ParksService {
       areaName: 'Seuss Landing',
       type: 'ride',
       height: 40,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3444,7 +3444,7 @@ export class ParksService {
       areaName: 'Seuss Landing',
       type: 'ride',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3454,7 +3454,7 @@ export class ParksService {
       areaName: 'Seuss Landing',
       type: 'ride',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3464,7 +3464,7 @@ export class ParksService {
       areaName: 'Seuss Landing',
       type: 'ride',
       height: 36,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3474,7 +3474,7 @@ export class ParksService {
       areaName: 'Seuss Landing',
       type: 'ride',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3484,7 +3484,7 @@ export class ParksService {
       areaName: 'Seuss Landing',
       type: 'food',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3494,7 +3494,7 @@ export class ParksService {
       areaName: 'Seuss Landing',
       type: 'food',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3504,7 +3504,7 @@ export class ParksService {
       areaName: 'Seuss Landing',
       type: 'food',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3514,7 +3514,7 @@ export class ParksService {
       areaName: 'Seuss Landing',
       type: 'food',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3524,7 +3524,7 @@ export class ParksService {
       areaName: 'Seuss Landing',
       type: 'show',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3534,7 +3534,7 @@ export class ParksService {
       areaName: 'Seuss Landing',
       type: 'shop',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3544,7 +3544,7 @@ export class ParksService {
       areaName: 'Seuss Landing',
       type: 'shop',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3554,7 +3554,7 @@ export class ParksService {
       areaName: 'Seuss Landing',
       type: 'shop',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3564,7 +3564,7 @@ export class ParksService {
       areaName: 'Seuss Landing',
       type: 'shop',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
@@ -3574,7 +3574,7 @@ export class ParksService {
       areaName: 'Seuss Landing',
       type: 'shop',
       height: 0,
-      parkName: 'Universal\'s Island of Adventure',
+      parkName: 'Universal\'s Islands of Adventure',
       resortName: 'Universal Orlando',
       favorite: false,
       note: ''
